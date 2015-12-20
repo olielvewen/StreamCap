@@ -1,0 +1,6 @@
+Samples
+=======
+
+This is a description of different samples of the project:
+  1. First sample...
+  2. Second sample...
