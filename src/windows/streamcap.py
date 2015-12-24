@@ -498,7 +498,7 @@ class VobCopyParser(QObject):
     #===================================================================================================================
     def GetTitleProperties(self, device):
         """
-        Here we get all porperties of the dvd
+        Here we get all properties of the dvd
         """
         lsdvd_command = "lsdvd %s" % (device)
 
@@ -536,8 +536,8 @@ class VobCopyParser(QObject):
     #===================================================================================================================
     def CaptureStream(self, device, title, output_dir):
         """
-        Here we run the process to capture the dvd. We get the ouptut trace, apply it in the textedit, run
-        the progress bar, see his progress until the rip will be finshed
+        Here we run the process to capture the dvd. We get the output trace, apply it in the textedit, run
+        the progress bar, see his progress until the rip will be finished
         """
         vobcopy_command = "vobcopy -i %s -n %s -o %s -l" % (device, title, output_dir)
 
@@ -554,9 +554,9 @@ class VobCopyParser(QObject):
                     self.OnTraceMessage(Line)
                 else:
                     #display the progress of the progressbar style "37MB of 215MB written (17 %)"
-                    pourcent = int(Line.split("(")[1].replace(".", " ").strip().split(" ")[0])
+                    percent = int(Line.split("(")[1].replace(".", " ").strip().split(" ")[0])
 
-                    self.OnCaptureProgress(pourcent)
+                    self.OnCaptureProgress(percent)
 
                     Line = ""
 
