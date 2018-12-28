@@ -23,6 +23,7 @@ Features
 Screenshots
 -----------
 
+<img src="streamcap/images/streamcap.png" alt="Streamcap" width="750">
 
 Dependencies
 ------------
