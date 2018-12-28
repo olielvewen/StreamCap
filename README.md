@@ -36,7 +36,7 @@ Dependencies
 Installation
 ------------
 
-For the moment, just open a console in the src folder and type:
+For the moment, just open a console in the streamcap folder and type:
 
 ```
 python streamcap.py
@@ -51,7 +51,7 @@ python streamcap.py
     
 * Linux Mint/Ubuntu
     
-    However, the python default version is the version 2 and not the 3. So you should type :
+    However, the python default version is the version 2 and not the 3 until 17.10. After, you should do the same thing than for Manjaro So you should type :
     
     ```
     python streamcap.py
