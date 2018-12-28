@@ -9,7 +9,7 @@ About
 Simple Gui for vobcopy, StreamCap is simple to use too. This is the main idea for this project i.e easy to install, easy
  to use. None command lines needs. 
  The first version of this project has not been created by me but razorfoss.com. You can get the original code (the 
- version 0.11 at <a href = http://sourceforge.net/projects/streamcap/> Streamcap </a>
+ version 0.11 at <a href = http://sourceforge.net/projects/streamcap/> Streamcap </a>)
  
 Features
 --------
