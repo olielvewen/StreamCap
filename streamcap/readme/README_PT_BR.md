@@ -3,11 +3,7 @@
 StreamCap is a GUI in Python 3 and QT5 for Vobcopy, a command line for grab a Dvd on your Hard Drive. This version is 
 just the update of the existing tool written in Python 2.7 and QT4 (called StreamCap). 
 
-Other Languages
------
-[README in PT-BR](streamcap/readme/README_PT_BR.md)
-
-About
+Sobre
 -----
 
 Simple Gui for vobcopy, StreamCap is simple to use too. This is the main idea for this project i.e easy to install, easy
@@ -15,7 +11,7 @@ Simple Gui for vobcopy, StreamCap is simple to use too. This is the main idea fo
  The first version of this project has not been created by me but razorfoss.com. You can get the original code (the 
  version 0.11 at <a href = http://sourceforge.net/projects/streamcap/> Streamcap </a>)
  
-Features
+Funcionalidades
 --------
 
 * Nice interface
@@ -29,7 +25,7 @@ Screenshots
 
 <img src="streamcap/images/streamcap.png" alt="Streamcap" width="500">
 
-Dependencies
+Dependências
 ------------
 
 * python 2
@@ -37,7 +33,7 @@ Dependencies
 * Qt4
 * vobcopy
 
-Installation
+Instalação
 ------------
 
 For the moment, just open a console in the streamcap folder and type:
