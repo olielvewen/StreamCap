@@ -1,29 +1,28 @@
 # StreamCap
 
-StreamCap is a GUI in Python 3 and QT5 for Vobcopy, a command line for grab a Dvd on your Hard Drive. This version is 
-just the update of the existing tool written in Python 2.7 and QT4 (called StreamCap). 
+O StreamCap é uma interface gráfica do usuário (GUI) em Python 3 e QT5 para Vobcopy, uma linha de comando para pegar um DVD no seu disco rígido.
+Esta versão é apenas a atualização da ferramenta existente escrita em Python 2.7 e QT4 (chamada StreamCap).
 
 Sobre
 -----
 
-Simple Gui for vobcopy, StreamCap is simple to use too. This is the main idea for this project i.e easy to install, easy
- to use. None command lines needs. 
- The first version of this project has not been created by me but razorfoss.com. You can get the original code (the 
- version 0.11 at <a href = http://sourceforge.net/projects/streamcap/> Streamcap </a>)
+Simples GUI para vobcopy, StreamCap também é simples de usar. Essa é a principal idéia para este projeto, ou seja, fácil de instalar, fácil de usar. 
+Nenhuma linha de comando precisa. A primeira versão deste projeto não foi criada por mim, mas pelo razorfoss.com. 
+Você pode obter o código original (a versão 0.11 no S <a href = http://sourceforge.net/projects/streamcap/> Streamcap </a>)
  
 Funcionalidades
 --------
 
-* Nice interface
-* Easy to use
-* Keep preferences in memory
-* Essential features of Vobcopy
-* No command lines for Vobcopy
+* Interface agradável
+* Fácil de usar
+* Mantenha as preferências na memória
+* Recursos essenciais do Vobcopy
+* Não há linhas de comando para o Vobcopy
 
 Screenshots
 -----------
 
-<img src="streamcap/images/streamcap.png" alt="Streamcap" width="500">
+<img src="../images/streamcap.png" alt="Streamcap" width="500">
 
 Dependências
 ------------
@@ -36,7 +35,7 @@ Dependências
 Instalação
 ------------
 
-For the moment, just open a console in the streamcap folder and type:
+Por enquanto, basta abrir um console na pasta streamcap e digite:
 
 ```
 python streamcap.py
@@ -44,24 +43,24 @@ python streamcap.py
 
 * Manjaro
 
-    Python3 is the default version so type :
+    Python3 é a versão padrão, então digite :
     ```
     python2 streamcap.py
     ```
     
 * Linux Mint/Ubuntu
     
-    However, the python default version is the version 2 and not the 3 until 17.10. After, you should do the same thing than for Manjaro So you should type :
+    No entanto, a versão padrão do python é a versão 2 e não a 3 até 17.10. Depois, você deve fazer o mesmo que no Manjaro. Então, digite:
     
     ```
     python streamcap.py
     ```
   
-TODO
+Próximas Versões
 ----
 
-Here, what is planned for the next versions when I will get the time for that.
+Aqui, o que está planejado para as próximas versões, quando eu tiver tempo para isso.
 
-* version 0.13 Introduce new version of Signals ans slot
-* version 0.14 introduce python 3 by default
-* version 0.15 (not necessary) introduce the Qt5 and the ui interface
+* versão 0.13 Introduzir nova versão de sinais e slot
+* a versão 0.14 apresenta o python 3 por padrão
+* a versão 0.15 (não necessária) apresenta a interface Qt5 e a interface do usuário
