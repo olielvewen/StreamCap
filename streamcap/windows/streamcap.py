@@ -13,7 +13,7 @@ from PyQt4.QtCore import *
 #from PyQt5.QtWidgets import *
 
 app_name = "StreamCap"
-app_version = "0.1.2"
+app_version = "0.1.3"
 app_author = "olivier Girard"
 author_email = "olivier@openshot.org"
 
