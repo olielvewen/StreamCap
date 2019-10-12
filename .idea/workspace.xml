@@ -5,8 +5,7 @@
     <list default="true" id="593cf038-279c-4479-b29e-8ffbeabd3f9e" name="Default Changelist" comment="" />
 =======
     <list default="true" id="593cf038-279c-4479-b29e-8ffbeabd3f9e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/streamcap/windows/streamcap.py" beforeDir="false" afterPath="$PROJECT_DIR$/streamcap/windows/streamcap.py" afterDir="false" />
     </list>
 >>>>>>> modification README file according new events
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,9 +41,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/streamcap/windows/streamcap.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="7657">
               <caret line="411" column="69" selection-start-line="411" selection-start-column="69" selection-end-line="411" selection-end-column="69" />
 >>>>>>> modification README file according new events
+=======
+            <state relative-caret-position="342">
+              <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+              <folding>
+                <element signature="e#48#58#0" expanded="true" />
+              </folding>
+>>>>>>> introduce the license in the main file - at first look not already done ?
             </state>
           </provider>
         </entry>
@@ -57,7 +64,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/streamcap/streamcap.pro" />
+=======
+>>>>>>> introduce the license in the main file - at first look not already done ?
         <option value="$PROJECT_DIR$/streamcap/windows/streamcap.py" />
       </list>
     </option>
@@ -193,6 +203,7 @@
     <entry file="file://$PROJECT_DIR$/streamcap/windows/streamcap.py">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
         <state relative-caret-position="475">
           <caret line="103" column="36" selection-start-line="103" selection-start-column="36" selection-end-line="103" selection-end-column="36" />
           <folding>
@@ -202,6 +213,13 @@
         <state relative-caret-position="7657">
           <caret line="411" column="69" selection-start-line="411" selection-start-column="69" selection-end-line="411" selection-end-column="69" />
 >>>>>>> modification README file according new events
+=======
+        <state relative-caret-position="342">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+          <folding>
+            <element signature="e#48#58#0" expanded="true" />
+          </folding>
+>>>>>>> introduce the license in the main file - at first look not already done ?
         </state>
       </provider>
     </entry>
