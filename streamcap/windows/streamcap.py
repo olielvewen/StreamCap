@@ -17,6 +17,15 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
+# Port of StreamCap : incorporates or uses as reference work by razorfoss.com
+# and realies, under the term of the GPL.
+#
+# Incorporates or uses as reference work by Razorfoss.com, under the term of
+# the Gnu General Public License
+#
+# StreamCap
+# Copyright (c) razorfoss.com, 2009
+#
 
 import sys
 import os
