@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="593cf038-279c-4479-b29e-8ffbeabd3f9e" name="Default Changelist" comment="" />
+    <list default="true" id="593cf038-279c-4479-b29e-8ffbeabd3f9e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/streamcap/windows/streamcap.py" beforeDir="false" afterPath="$PROJECT_DIR$/streamcap/windows/streamcap.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,12 +15,12 @@
     <option name="PATCH_PATH" value="" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/streamcap/windows/streamcap.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+            <state relative-caret-position="7657">
+              <caret line="411" column="78" selection-start-line="411" selection-start-column="78" selection-end-line="411" selection-end-column="78" />
             </state>
           </provider>
         </entry>
@@ -122,10 +125,13 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../../PyQt5-Tutoriels/Apprentisage_pyqt5_livre/GUI_en_Python_avec_PyQt_5/qt-widgets/2-qt-designer/start_app.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/streamcap/windows/streamcap.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+        <state relative-caret-position="7657">
+          <caret line="411" column="78" selection-start-line="411" selection-start-column="78" selection-end-line="411" selection-end-column="78" />
         </state>
       </provider>
     </entry>
