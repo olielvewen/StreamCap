@@ -5,3 +5,4 @@ TRANSLATIONS += streamcap.fr_FR.ts
                 streamcap.pt_BR.ts
                 streamcap.es_ES.ts
                 streamcap.it_IT.ts
+                streamcap.nl_NL.ts
