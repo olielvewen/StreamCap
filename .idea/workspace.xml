@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="593cf038-279c-4479-b29e-8ffbeabd3f9e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/streamcap/windows/streamcap.py" beforeDir="false" afterPath="$PROJECT_DIR$/streamcap/windows/streamcap.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,8 +18,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/streamcap/windows/streamcap.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7657">
-              <caret line="411" column="69" selection-start-line="411" selection-start-column="69" selection-end-line="411" selection-end-column="69" />
+            <state relative-caret-position="342">
+              <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+              <folding>
+                <element signature="e#48#58#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -29,6 +31,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/streamcap/windows/streamcap.py" />
+      </list>
+    </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="50" />
@@ -125,8 +134,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/streamcap/windows/streamcap.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7657">
-          <caret line="411" column="69" selection-start-line="411" selection-start-column="69" selection-end-line="411" selection-end-column="69" />
+        <state relative-caret-position="342">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+          <folding>
+            <element signature="e#48#58#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
