@@ -609,7 +609,7 @@ if __name__ == "__main__":
         translator.load(locale, "streamcap", ".")
     else:
         translator.load("streamcap." + sys.argv[1])
-        
+
     StreamCap = StreamCap()
     if "v" in sys.argv or "--version" in sys.argv:
         print ("StreamCap version %s") % StreamCap.Version()
