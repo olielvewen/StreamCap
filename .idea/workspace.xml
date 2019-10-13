@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="593cf038-279c-4479-b29e-8ffbeabd3f9e" name="Default Changelist" comment="" />
+    <list default="true" id="593cf038-279c-4479-b29e-8ffbeabd3f9e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/streamcap/windows/streamcap.py" beforeDir="false" afterPath="$PROJECT_DIR$/streamcap/windows/streamcap.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/streamcap/windows/streamcap.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="11609">
-              <caret line="611" selection-start-line="611" selection-end-line="611" />
+            <state relative-caret-position="475">
+              <caret line="103" column="43" selection-start-line="103" selection-start-column="43" selection-end-line="103" selection-end-column="43" />
               <folding>
                 <element signature="e#48#58#0" expanded="true" />
               </folding>
@@ -42,8 +45,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/streamcap/windows/streamcap.py" />
         <option value="$PROJECT_DIR$/streamcap/streamcap.pro" />
+        <option value="$PROJECT_DIR$/streamcap/windows/streamcap.py" />
       </list>
     </option>
   </component>
@@ -138,6 +141,11 @@
     <entry file="file://$PROJECT_DIR$/../../PyQt5-Tutoriels/Apprentisage_pyqt5_livre/GUI_en_Python_avec_PyQt_5/qt-widgets/2-qt-designer/start_app.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-138" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/streamcap/streamcap.pro">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -147,8 +155,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/streamcap/windows/streamcap.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11609">
-          <caret line="611" selection-start-line="611" selection-end-line="611" />
+        <state relative-caret-position="475">
+          <caret line="103" column="43" selection-start-line="103" selection-start-column="43" selection-end-line="103" selection-end-column="43" />
           <folding>
             <element signature="e#48#58#0" expanded="true" />
           </folding>
