@@ -39,7 +39,7 @@ from PyQt4.QtCore import *
 #from PyQt5.QtWidgets import *
 
 app_name = "StreamCap"
-app_version = "0.1.2"
+app_version = "0.1.3"
 app_author = "olivier Girard"
 author_email = "olivier@openshot.org"
 
@@ -127,13 +127,13 @@ class StreamCap(QMainWindow):
         vlayout1 = QVBoxLayout(wgCentral)
 
         #Devices groupbox
-        gbDevice = QGroupBox("Device Info")
+        gbDevice = QGroupBox(self.tr("Device Info"))
         hlayDevGb = QHBoxLayout(gbDevice)
-        labDevPath = QLabel("Device Path")
+        labDevPath = QLabel(self.tr("Device Path"))
         self.lnedevicepath = QLineEdit()
-        labDevMont = QLabel("Mount Point")
+        labDevMont = QLabel(self.tr("Mount Point"))
         self.lnedevicemount = QLineEdit()
-        self.btnrefreshdevice = QPushButton("Refresh")
+        self.btnrefreshdevice = QPushButton(self.tr("Refresh"))
         hlayDevGb.addWidget(labDevPath)
         hlayDevGb.addWidget(self.lnedevicepath)
         hlayDevGb.addWidget(labDevMont)
@@ -144,10 +144,10 @@ class StreamCap(QMainWindow):
 
         #=====================================================================================
         #Disc Details Groupbox
-        gbDisc = QGroupBox("Disc Details")
+        gbDisc = QGroupBox(self.tr("Disc Details"))
         hlayDiscGb = QHBoxLayout(gbDisc)
-        self.lbldiscname = QLabel("Disc name:")
-        self.lbltitlecount = QLabel("Title count:")
+        self.lbldiscname = QLabel(self.tr("Disc name:"))
+        self.lbltitlecount = QLabel(self.tr("Title count:"))
         hlayDiscGb.addWidget(self.lbldiscname)
         hlayDiscGb.addWidget(self.lbltitlecount)
 
@@ -155,7 +155,7 @@ class StreamCap(QMainWindow):
 
         #=====================================================================================
         #Titles Groupbox
-        gbTitles = QGroupBox("Titles")
+        gbTitles = QGroupBox(self.tr("Titles"))
         vlayTitlesGb = QVBoxLayout(gbTitles)
 
         hlayTitlesButtons = QHBoxLayout()
@@ -163,7 +163,7 @@ class StreamCap(QMainWindow):
         self.ListTitles = CheckedListBox()
         vlayTitlesGb.addWidget(self.ListTitles)
 
-        self.btncopytitles = QPushButton("Copy titles")
+        self.btncopytitles = QPushButton(self.tr("Copy titles"))
 
         self.progressbarcapture = QProgressBar()
         self.progressbarcapture.setRange(0, 100)
@@ -177,12 +177,12 @@ class StreamCap(QMainWindow):
 
         #=========================================================================================
         #Output destination groupbox
-        gbOutput = QGroupBox("Output Destination")
+        gbOutput = QGroupBox(self.tr("Output Destination"))
         hlayOutput = QHBoxLayout(gbOutput)
 
-        laboutputpath = QLabel("Output Path")
+        laboutputpath = QLabel(self.tr("Output Path"))
         self.lneoutputpath = QLineEdit()
-        self.btnchooseoutputpath = QPushButton("...")
+        self.btnchooseoutputpath = QPushButton(self.tr("..."))
 
         hlayOutput.addWidget(laboutputpath)
         hlayOutput.addWidget(self.lneoutputpath)
@@ -201,10 +201,10 @@ class StreamCap(QMainWindow):
         #=======================================================================================
         #setup toolbar
         mnuBar = QMenuBar()
-        mnuFile = QMenu("&File", mnuBar)
+        mnuFile = QMenu(self.tr("&File"), mnuBar)
 
-        self.mnuFileExit = QAction("E&xit", mnuFile)
-        self.mnuFileRefreshDiscInfo = QAction("&Refresh Disc Info", mnuFile)
+        self.mnuFileExit = QAction(self.tr("E&xit"), mnuFile)
+        self.mnuFileRefreshDiscInfo = QAction(self.tr("&Refresh Disc Info"), mnuFile)
 
         mnuFile.addAction(self.mnuFileRefreshDiscInfo)
         mnuFile.addSeparator()
@@ -215,7 +215,7 @@ class StreamCap(QMainWindow):
 
         #final form
         self.setCentralWidget(wgCentral)
-        self.setWindowTitle("StreamCap")
+        self.setWindowTitle(self.tr("StreamCap"))
 
         #============================================================================================
         #init event handlers
@@ -268,7 +268,7 @@ class StreamCap(QMainWindow):
         Here we get the output path and display it in the line label corresponding
         """
 
-        output_path = QFileDialog.getExistingDirectory(self, "Choose output path", self.lneoutputpath.text())
+        output_path = QFileDialog.getExistingDirectory(self, self.tr("Choose output path"), self.lneoutputpath.text())
 
         if len(output_path) > 0:
             self.lneoutputpath.setText(output_path)
@@ -305,7 +305,7 @@ class StreamCap(QMainWindow):
                         firsttitle = False
 
             else:
-                self.LogInfo("Couldn't find mounted DVD")
+                self.LogInfo(self.tr("Couldn't find mounted DVD"))
 
         except Exception as ex:
             raise ex
@@ -432,10 +432,10 @@ class VobCopyParser(QObject):
         super(QObject, self).__init__(parent)
 
         if self.TestVobCopy() == 0:
-            raise Exception("Couldn't find Vobcopy. Is it installed ?")
+            raise Exception(self.tr("Couldn't find Vobcopy. Is it installed ?"))
 
         if self.TestLsdvd() == 0:
-            raise Exception("Couldn't find Lsdvd. Is it installed ?")
+            raise Exception(self.tr("Couldn't find Lsdvd. Is it installed ?"))
 
     #===================================================================================================================
 
@@ -628,6 +628,14 @@ class VobCopyParser(QObject):
     #===================================================================================================================
 if __name__ == "__main__":
     application = QApplication(sys.argv)
+    # Translate application
+    translator = QTranslator()
+    if len(sys.argv) == 1:
+        locale = QLocale()
+        translator.load(locale, "streamcap", ".")
+    else:
+        translator.load("streamcap." + sys.argv[1])
+
     StreamCap = StreamCap()
     if "v" in sys.argv or "--version" in sys.argv:
         print ("StreamCap version %s") % StreamCap.Version()
