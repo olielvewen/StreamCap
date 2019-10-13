@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="593cf038-279c-4479-b29e-8ffbeabd3f9e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/streamcap/streamcap.pro" beforeDir="false" afterPath="$PROJECT_DIR$/streamcap/streamcap.pro" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/streamcap/windows/streamcap.py" beforeDir="false" afterPath="$PROJECT_DIR$/streamcap/windows/streamcap.py" afterDir="false" />
     </list>
@@ -28,7 +29,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/streamcap/windows/streamcap.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="860">
+            <state relative-caret-position="11609">
               <caret line="611" selection-start-line="611" selection-end-line="611" />
               <folding>
                 <element signature="e#48#58#0" expanded="true" />
@@ -150,7 +151,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/streamcap/windows/streamcap.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="860">
+        <state relative-caret-position="11609">
           <caret line="611" selection-start-line="611" selection-end-line="611" />
           <folding>
             <element signature="e#48#58#0" expanded="true" />
