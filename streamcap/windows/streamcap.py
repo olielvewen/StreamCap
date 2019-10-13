@@ -602,6 +602,14 @@ class VobCopyParser(QObject):
     #===================================================================================================================
 if __name__ == "__main__":
     application = QApplication(sys.argv)
+    # Translate application
+    translator = QTranslator()
+    if len(sys.argv) == 1:
+        locale = QLocale()
+        translator.load(locale, "streamcap", ".")
+    else:
+        translator.load("streamcap." + sys.argv[1])
+        
     StreamCap = StreamCap()
     if "v" in sys.argv or "--version" in sys.argv:
         print ("StreamCap version %s") % StreamCap.Version()
