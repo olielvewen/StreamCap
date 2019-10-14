@@ -5,6 +5,13 @@
     <list default="true" id="593cf038-279c-4479-b29e-8ffbeabd3f9e" name="Default Changelist" comment="" />
 =======
     <list default="true" id="593cf038-279c-4479-b29e-8ffbeabd3f9e" name="Default Changelist" comment="">
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+>>>>>>> internationnal-translation
+>>>>>>> 724d2102fcbe3a5f38a44ffb792ad66c48955b72
       <change beforePath="$PROJECT_DIR$/streamcap/windows/streamcap.py" beforeDir="false" afterPath="$PROJECT_DIR$/streamcap/windows/streamcap.py" afterDir="false" />
     </list>
 >>>>>>> modification README file according new events
@@ -20,6 +27,15 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/streamcap/windows/streamcap.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="494">
+              <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+=======
+>>>>>>> 724d2102fcbe3a5f38a44ffb792ad66c48955b72
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/streamcap/streamcap.pro">
           <provider selected="true" editor-type-id="text-editor">
@@ -33,7 +49,12 @@
         <entry file="file://$PROJECT_DIR$/streamcap/windows/streamcap.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="475">
+<<<<<<< HEAD
               <caret line="103" column="36" selection-start-line="103" selection-start-column="36" selection-end-line="103" selection-end-column="36" />
+=======
+              <caret line="103" column="43" selection-start-line="103" selection-start-column="43" selection-end-line="103" selection-end-column="43" />
+>>>>>>> internationnal-translation
+>>>>>>> 724d2102fcbe3a5f38a44ffb792ad66c48955b72
               <folding>
                 <element signature="e#48#58#0" expanded="true" />
               </folding>
@@ -70,9 +91,15 @@
     <option name="CHANGED_PATHS">
       <list>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/streamcap/streamcap.pro" />
 =======
 >>>>>>> introduce the license in the main file - at first look not already done ?
+=======
+=======
+        <option value="$PROJECT_DIR$/streamcap/streamcap.pro" />
+>>>>>>> internationnal-translation
+>>>>>>> 724d2102fcbe3a5f38a44ffb792ad66c48955b72
         <option value="$PROJECT_DIR$/streamcap/windows/streamcap.py" />
       </list>
     </option>
@@ -124,7 +151,36 @@
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
 >>>>>>> modification README file according new events
+=======
+      <pane id="Scope" />
+<<<<<<< HEAD
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="StreamCap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StreamCap" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StreamCap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StreamCap" type="462c0819:PsiDirectoryNode" />
+              <item name="streamcap" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StreamCap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StreamCap" type="462c0819:PsiDirectoryNode" />
+              <item name="streamcap" type="462c0819:PsiDirectoryNode" />
+              <item name="windows" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+=======
+>>>>>>> internationnal-translation
+>>>>>>> 724d2102fcbe3a5f38a44ffb792ad66c48955b72
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -156,7 +212,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="0" y="50" width="1920" height="1150" extended-state="0" />
+=======
+<<<<<<< HEAD
+    <frame x="0" y="50" width="1920" height="1150" extended-state="0" />
+=======
+    <frame x="0" y="50" width="1920" height="1150" extended-state="1" />
+>>>>>>> internationnal-translation
+>>>>>>> 724d2102fcbe3a5f38a44ffb792ad66c48955b72
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24986821" />
@@ -172,12 +236,21 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
 <<<<<<< HEAD
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
 =======
       <window_info anchor="bottom" id="Python Console" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
 >>>>>>> modification README file according new events
+=======
+      <window_info anchor="bottom" id="Python Console" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+=======
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+>>>>>>> internationnal-translation
+>>>>>>> 724d2102fcbe3a5f38a44ffb792ad66c48955b72
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -185,6 +258,13 @@
   </component>
   <component name="editorHistoryManager">
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-114" />
+=======
+>>>>>>> 724d2102fcbe3a5f38a44ffb792ad66c48955b72
     <entry file="file://$PROJECT_DIR$/../../PyQt5-Tutoriels/Apprentisage_pyqt5_livre/GUI_en_Python_avec_PyQt_5/qt-widgets/2-qt-designer/start_app.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -198,15 +278,20 @@
         <state relative-caret-position="19">
           <caret line="1" column="129" selection-start-line="1" selection-start-column="129" selection-end-line="1" selection-end-column="129" />
         </state>
+<<<<<<< HEAD
 =======
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-114" />
 >>>>>>> modification README file according new events
+=======
+>>>>>>> internationnal-translation
+>>>>>>> 724d2102fcbe3a5f38a44ffb792ad66c48955b72
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/streamcap/windows/streamcap.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -226,6 +311,14 @@
         <state relative-caret-position="494">
           <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
 >>>>>>> add copyright initial author razorfoss.com - not having done in the code himself
+=======
+        <state relative-caret-position="494">
+          <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+=======
+        <state relative-caret-position="475">
+          <caret line="103" column="43" selection-start-line="103" selection-start-column="43" selection-end-line="103" selection-end-column="43" />
+>>>>>>> internationnal-translation
+>>>>>>> 724d2102fcbe3a5f38a44ffb792ad66c48955b72
           <folding>
             <element signature="e#48#58#0" expanded="true" />
           </folding>
