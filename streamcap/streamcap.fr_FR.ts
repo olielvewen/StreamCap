@@ -4,12 +4,12 @@
     <name>StreamCap</name>
     <message>
         <location filename="streamcap.py" line="130"/>
-        <source>Device Info</source>
+        <source>Informations de l'appareil</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="streamcap.py" line="132"/>
-        <source>Device Path</source>
+        <source>Chemin de l'appareil</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -19,17 +19,17 @@
     </message>
     <message>
         <location filename="streamcap.py" line="136"/>
-        <source>Refresh</source>
+        <source>Rafraîchir</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="streamcap.py" line="147"/>
-        <source>Disc Details</source>
+        <source>Détails du disque</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="streamcap.py" line="149"/>
-        <source>Disc name:</source>
+        <source>Nom du disque :</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -39,7 +39,7 @@
     </message>
     <message>
         <location filename="streamcap.py" line="158"/>
-        <source>Titles</source>
+        <source>Titres</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -49,12 +49,12 @@
     </message>
     <message>
         <location filename="streamcap.py" line="180"/>
-        <source>Output Destination</source>
+        <source>Destination de rendu</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="streamcap.py" line="183"/>
-        <source>Output Path</source>
+        <source>Chemin de rendu</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -84,7 +84,7 @@
     </message>
     <message>
         <location filename="streamcap.py" line="271"/>
-        <source>Choose output path</source>
+        <source>Choisir chemin de rendu</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
