@@ -6,6 +6,7 @@ just the update of the existing tool written in Python 2.7 and QT4 (called Strea
 Other Languages
 -----
 [README in PT-BR](streamcap/readme/README_PT_BR.md)
+[README in FR-fr](streamcap/readme/README_FR_fr.md)
 
 About
 -----
@@ -68,6 +69,6 @@ TODO
 Here, what is planned for next versions when I will get the time for that.
 
 * version 0.13 Introduce International Translations
-* version 0.14 Introduce new version of Signals ans slot
+* version 0.14 Introduce new version of Signals and slot
 * version 0.15 Introduce python 3 by default
 * version 0.16 (not necessary) introduce PyQt5 ~~and the ui interface~~

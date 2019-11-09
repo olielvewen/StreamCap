@@ -4,17 +4,17 @@
     <name>StreamCap</name>
     <message>
         <location filename="streamcap.py" line="130"/>
-        <source>Informations de l'appareil</source>
+        <source>Informations de l&apos;appareil</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="streamcap.py" line="132"/>
-        <source>Chemin de l'appareil</source>
+        <source>Chemin de l&apos;appareil</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="streamcap.py" line="134"/>
-        <source>Mount Point</source>
+        <source>Point de montage</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -34,7 +34,7 @@
     </message>
     <message>
         <location filename="streamcap.py" line="150"/>
-        <source>Title count:</source>
+        <source>Nombre de titre :</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -44,17 +44,17 @@
     </message>
     <message>
         <location filename="streamcap.py" line="166"/>
-        <source>Copy titles</source>
+        <source>Copier les titres</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="streamcap.py" line="180"/>
-        <source>Destination de rendu</source>
+        <source>Destination de sortie</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="streamcap.py" line="183"/>
-        <source>Chemin de rendu</source>
+        <source>Chemin de destination</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -64,17 +64,17 @@
     </message>
     <message>
         <location filename="streamcap.py" line="204"/>
-        <source>&amp;File</source>
+        <source>&amp;Fichier</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="streamcap.py" line="206"/>
-        <source>E&amp;xit</source>
+        <source>Q&amp;uitter</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="streamcap.py" line="207"/>
-        <source>&amp;Refresh Disc Info</source>
+        <source>&amp;Rafraîchir les informations du disque</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -84,12 +84,12 @@
     </message>
     <message>
         <location filename="streamcap.py" line="271"/>
-        <source>Choisir chemin de rendu</source>
+        <source>Choisir le chemin de destination</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="streamcap.py" line="308"/>
-        <source>Couldn&apos;t find mounted DVD</source>
+        <source>Impossible de trouver de DVD</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -97,12 +97,12 @@
     <name>VobCopyParser</name>
     <message>
         <location filename="streamcap.py" line="435"/>
-        <source>Couldn&apos;t find Vobcopy. Is it installed ?</source>
+        <source>Impossible de trouver Vobcopy. Est-il installé ?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="streamcap.py" line="438"/>
-        <source>Couldn&apos;t find Lsdvd. Is it installed ?</source>
+        <source>Impossible de trouver Lsdvd. Est-il installé ?</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
